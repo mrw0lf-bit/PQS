@@ -11,7 +11,7 @@ export default function App() {
   const [copied, setCopied] = useState(false);
 
   // Change this address to your wallet/address
-  const ADDRESS = "livesoooooonnnnnnnnnnpm";
+  const ADDRESS = "55a3rp6pdWog7AQEaQ7Tk1UZWJ1zP2oCUExWPHTYpump";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(ADDRESS);
